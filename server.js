@@ -22,7 +22,7 @@ mongoose.connect(
 
 const io = require('socket.io')(server, {
   cors: {
-    origin: '*',
+    origin: 'https://docsync-server-w3s5.onrender.com',
     methods: ['GET', 'POST'],
   },
 });
